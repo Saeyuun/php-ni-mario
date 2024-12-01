@@ -1,0 +1,54 @@
+.container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; /* Increase the width to 500px */
+    height: 450px; /* Increase the height to 400px */
+    margin: auto; /* Center the container */
+    position: absolute;
+    padding: 0 20px; /* Add padding only to the left and right */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    text-align:center /* Center the label text */
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+    display: block;
+    width: 70%;
+    padding: 12px;
+    margin: 10px auto; /* Center the input elements */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="submit"] {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body {
+    width: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.653),rgba(0, 0, 0, 0.632)), url(apartment.avif);
+    background-position: center;
+    background-size: cover;
+        }
+
+        
